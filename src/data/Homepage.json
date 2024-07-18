@@ -76,7 +76,7 @@
       "anchor": "Get Free Estimation",
       "url": "#",
       "image": {
-        "src": "/real-estate/images/outside.jpg",
+        "src": "/real-estate/images/outside.webp",
         "alt": "Living Room"
       },
       "icon": {
@@ -89,7 +89,7 @@
       "testimonials": [
         {
           "image": {
-            "src": "/real-estate/images/user1.jpg",
+            "src": "/real-estate/images/user1.webp",
             "alt": "User"
           },
           "name": "Jessica White",
@@ -99,7 +99,7 @@
 
         {
           "image": {
-            "src": "/real-estate/images/user2.jpg",
+            "src": "/real-estate/images/user2.webp",
             "alt": "User"
           },
           "name": "John Doe",
@@ -109,7 +109,7 @@
 
         {
           "image": {
-            "src": "/real-estate/images/user3.jpg",
+            "src": "/real-estate/images/user3.webp",
             "alt": "User"
           },
           "name": "Jane Smith",
@@ -118,7 +118,7 @@
         },
         {
           "image": {
-            "src": "/real-estate/images/user4.jpg",
+            "src": "/real-estate/images/user4.webp",
             "alt": "User"
           },
           "name": "Michael Brown",
@@ -127,7 +127,7 @@
         },
         {
           "image": {
-            "src": "/real-estate/images/user5.jpg",
+            "src": "/real-estate/images/user5.webp",
             "alt": "User"
           },
           "name": "Jessica White",
@@ -137,7 +137,7 @@
 
         {
           "image": {
-            "src": "/real-estate/images/user6.jpg",
+            "src": "/real-estate/images/user6.webp",
             "alt": "User"
           },
           "name": "John Doe",
@@ -147,7 +147,7 @@
 
         {
           "image": {
-            "src": "/real-estate/images/user7.jpg",
+            "src": "/real-estate/images/user7.webp",
             "alt": "User"
           },
           "name": "Jane Smith",
@@ -156,7 +156,7 @@
         },
         {
           "image": {
-            "src": "/real-estate/images/user8.jpg",
+            "src": "/real-estate/images/user8.webp",
             "alt": "User"
           },
           "name": "Michael Brown",
@@ -165,7 +165,7 @@
         },
         {
           "image": {
-            "src": "/real-estate/images/user9.jpg",
+            "src": "/real-estate/images/user9.webp",
             "alt": "User"
           },
           "name": "Jane Smith",
@@ -206,7 +206,7 @@
           "name": "Modern Kitchen",
           "subname": "Decoration",
           "image": {
-            "src": "/real-estate/images/kitchen.jpg",
+            "src": "/real-estate/images/kitchen.webp",
             "alt": "Kitchen"
           }
         },
@@ -214,7 +214,7 @@
           "name": "Living Room",
           "subname": "Decoration / Renovation",
           "image": {
-            "src": "/real-estate/images/livingroom.jpg",
+            "src": "/real-estate/images/livingroom.webp",
             "alt": "Living Room"
           }
         },
@@ -222,7 +222,7 @@
           "name": "Bathroom",
           "subname": "Architecture",
           "image": {
-            "src": "/real-estate/images/bathroom.jpg",
+            "src": "/real-estate/images/bathroom.webp",
             "alt": "bathroom"
           }
         },
@@ -230,7 +230,7 @@
           "name": "Balcony",
           "subname": "Decoration / Architecture",
           "image": {
-            "src": "/real-estate/images/balcony.jpg",
+            "src": "/real-estate/images/balcony.webp",
             "alt": "balcony"
           }
         }
