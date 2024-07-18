@@ -1,0 +1,240 @@
+{
+  "header": {
+    "Brand": "Palisade",
+    "Links": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "About",
+        "url": "about"
+      },
+      {
+        "title": "Testimonials",
+        "url": "testimonials"
+      },
+      {
+        "title": "Our work",
+        "url": "work"
+      },
+      {
+        "title": "News",
+        "url": "news"
+      },
+      {
+        "title": "Contact",
+        "url": "contact"
+      }
+    ]
+  },
+  "sections": {
+    "first": {
+      "title": "Let Your Home Be Unique",
+      "description": "We are a team of professionals who are dedicated to providing you with the best services. We are here to help you make your home unique and beautiful.",
+      "anchor": "Get Free Estimation",
+      "url": "#",
+
+      "image": {
+        "src": "/real-estate/images/main.jpg",
+        "alt": "Living Room"
+      }
+    },
+    "second": {
+      "services": [
+        {
+          "title": "Interior Design",
+          "description": "We offer interior design services that will help you make your home unique and beautiful. Our team of professionals will work with you to create a design that suits you.",
+
+          "image": {
+            "src": "/real-estate/images/phone.svg",
+            "alt": "Interior Design"
+          }
+        },
+        {
+          "title": "Home Renovation",
+          "description": "We offer home renovation services that will help you make your home look new and beautiful.",
+          "image": {
+            "src": "/real-estate/images/star.svg",
+            "alt": "Interior Design"
+          }
+        },
+        {
+          "title": "Home Staging",
+          "description": "We offer home staging services that will help you make your home look beautiful and attractive.",
+          "image": {
+            "src": "/real-estate/images/tools.svg",
+            "alt": "Interior Design"
+          }
+        }
+      ]
+    },
+    "third": {
+      "title": "We Create The Art Of Stylish Living Stylishly",
+      "description": "We are a team of professionals who are dedicated to providing you with the best services. We are here to help you make your home unique and beautiful.",
+      "phone": "(123)-456-7890",
+      "anchor": "Get Free Estimation",
+      "url": "#",
+      "image": {
+        "src": "/real-estate/images/outside.jpg",
+        "alt": "Living Room"
+      },
+      "icon": {
+        "src": "/real-estate/images/phone.svg",
+        "alt": "Phone"
+      }
+    },
+    "fourth": {
+      "title": "What Clients Say",
+      "testimonials": [
+        {
+          "image": {
+            "src": "/real-estate/images/user1.jpg",
+            "alt": "User"
+          },
+          "name": "Jessica White",
+          "location": "New York, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+
+        {
+          "image": {
+            "src": "/real-estate/images/user2.jpg",
+            "alt": "User"
+          },
+          "name": "John Doe",
+          "location": "Los Angeles, USA",
+          "review": "I really liked the services given by this company. I was not until I talked to them that I realized how much I needed their services. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+
+        {
+          "image": {
+            "src": "/real-estate/images/user3.jpg",
+            "alt": "User"
+          },
+          "name": "Jane Smith",
+          "location": "Chicago, USA",
+          "review": "I am really satisfied with the services offered. They are one of the few companies that offer quality services at an affordable price. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+        {
+          "image": {
+            "src": "/real-estate/images/user4.jpg",
+            "alt": "User"
+          },
+          "name": "Michael Brown",
+          "location": "San Francisco, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+        {
+          "image": {
+            "src": "/real-estate/images/user5.jpg",
+            "alt": "User"
+          },
+          "name": "Jessica White",
+          "location": "New York, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+
+        {
+          "image": {
+            "src": "/real-estate/images/user6.jpg",
+            "alt": "User"
+          },
+          "name": "John Doe",
+          "location": "Los Angeles, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+
+        {
+          "image": {
+            "src": "/real-estate/images/user7.jpg",
+            "alt": "User"
+          },
+          "name": "Jane Smith",
+          "location": "Chicago, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+        {
+          "image": {
+            "src": "/real-estate/images/user8.jpg",
+            "alt": "User"
+          },
+          "name": "Michael Brown",
+          "location": "San Francisco, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        },
+        {
+          "image": {
+            "src": "/real-estate/images/user9.jpg",
+            "alt": "User"
+          },
+          "name": "Jane Smith",
+          "location": "Chicago, USA",
+          "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
+        }
+      ]
+    },
+    "fifth": {
+      "brands": [
+        {
+          "src": "/real-estate/images/brand1.svg",
+          "alt": "Brand"
+        },
+        {
+          "src": "/real-estate/images/brand2.svg",
+          "alt": "Brand"
+        },
+        {
+          "src": "/real-estate/images/brand3.svg",
+          "alt": "Brand"
+        },
+        {
+          "src": "/real-estate/images/brand4.svg",
+          "alt": "Brand"
+        },
+        {
+          "src": "/real-estate/images/brand5.svg",
+          "alt": "Brand"
+        }
+      ]
+    },
+    "sixth": {
+      "title": "Follow Our Projects",
+      "description": "We are here to help you make your home unique and beautiful. Contact us today to get a free estimation.",
+      "projects": [
+        {
+          "name": "Modern Kitchen",
+          "subname": "Decoration",
+          "image": {
+            "src": "/real-estate/images/kitchen.jpg",
+            "alt": "Kitchen"
+          }
+        },
+        {
+          "name": "Living Room",
+          "subname": "Decoration / Renovation",
+          "image": {
+            "src": "/real-estate/images/livingroom.jpg",
+            "alt": "Living Room"
+          }
+        },
+        {
+          "name": "Bathroom",
+          "subname": "Architecture",
+          "image": {
+            "src": "/real-estate/images/bathroom.jpg",
+            "alt": "bathroom"
+          }
+        },
+        {
+          "name": "Balcony",
+          "subname": "Decoration / Architecture",
+          "image": {
+            "src": "/real-estate/images/balcony.jpg",
+            "alt": "balcony"
+          }
+        }
+      ]
+    }
+  }
+}

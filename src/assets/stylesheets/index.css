@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer Base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .anchor:hover img {
+    animation: popRight 0.3s ease-in forwards;
+  }
+
+  .anchor:not(:hover) img {
+    animation: popLeft 0.3s ease-in forwards;
+  }
+
+  @keyframes popRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(15px);
+    }
+  }
+  @keyframes popLeft {
+    0% {
+      transform: translateX(15px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes fadeFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes fadeFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes upAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .fadeFromRight {
+    animation: fadeFromRight 1.5s ease-in-out forwards;
+  }
+  .fadeFromLeft {
+    animation: fadeFromLeft 1.5s ease-in-out forwards;
+  }
+  .fadeFromTop {
+    animation: fadeFromTop 1.5s ease-in-out forwards;
+  }
+  .fadeFromBottom {
+    animation: fadeFromBottom 1.5s ease-in-out forwards;
+  }
+}
