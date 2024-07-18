@@ -6,18 +6,37 @@ const JsonFormatter = {
 };
 
 export default function Testimonials() {
-  const numberSections = JsonFormatter.testimonials.length / 3;
-
   const [display, setDisplay] = useState(0);
 
+  const windowWidth = window.innerWidth;
+
+  let turnOffInterval = false;
+
+  const numberSections =
+    windowWidth > 640
+      ? JsonFormatter.testimonials.length / 3
+      : JsonFormatter.testimonials.length;
   function autoTranslate() {
     setDisplay((prev) => (prev + 1) % numberSections);
   }
 
   useEffect(() => {
     const interval = setInterval(autoTranslate, 5000);
+
+    if (turnOffInterval) {
+      clearInterval(interval);
+    }
+
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    console.log(windowWidth);
+  }, [windowWidth]);
+  function translate(index) {
+    setDisplay(index);
+    turnOffInterval = true;
+  }
   return (
     <section className="mx-[20px] md:mx-[50px] lg:mx-[200px]  2xl:mx-[300px] my-[200px] pt-16 pb-12 bg-[#f4f0ec] rounded-[40px] overflow-hidden">
       <h4 className="text-center font-bold text-4xl">{JsonFormatter.title}</h4>
@@ -87,7 +106,7 @@ export default function Testimonials() {
                   <img
                     className="size-16 object-cover aspect-square rounded-full"
                     src={testimonial.image.src}
-                    alt={testimonial.image.src}
+                    alt={testimonial.image.alt}
                   />
                 </span>
                 <div>
@@ -104,13 +123,14 @@ export default function Testimonials() {
       <div className="flex justify-center">
         {Array.from({ length: numberSections }, (_, index) => {
           return (
-            <button
+            <span
               key={index}
               onClick={() => translate(index)}
-              className={`mx-1 size-2 rounded-full bg-gray-400 hover:bg-gray-500 transition-all duration-100 ease-in ${
+              className={`mx-1 size-2 rounded-full bg-gray-400 cursor-pointer hover:bg-gray-500 transition-all duration-100 ease-in ${
                 display === index ? "bg-gray-500 scale-110" : ""
               }`}
-            ></button>
+              title={`Testimonial ${index + 1}`}
+            ></span>
           );
         })}
       </div>

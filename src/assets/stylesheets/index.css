@@ -27,7 +27,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(15px);
+      transform: translateX(10px);
     }
   }
   @keyframes popLeft {
