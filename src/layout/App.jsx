@@ -6,6 +6,7 @@ import Services from "../sections/Services";
 import Testimonials from "../sections/testimonials";
 import Sponsors from "../sections/Sponsors";
 import Projects from "../sections/Projects";
+import Footer from "../sections/Footer";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Testimonials />
       <Sponsors />
       <Projects />
+      <Footer />
     </>
   );
 }

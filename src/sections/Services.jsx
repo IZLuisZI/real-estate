@@ -8,7 +8,7 @@ const JsonFormatter = {
 export default function Services() {
   return (
     <section id="services">
-      <div className="mx-[20px] lg:mx-[200px]  2xl:mx-[300px] my-[200px] py-[100px] px-8 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="mx-[20px] lg:mx-[200px]  2xl:mx-[300px] my-[100px] py-[100px] px-8 grid grid-cols-1 md:grid-cols-3 gap-5">
         {JsonFormatter.services.map((service, index) => {
           return (
             <article

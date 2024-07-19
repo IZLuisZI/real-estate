@@ -236,5 +236,122 @@
         }
       ]
     }
-  }
+  },
+
+  "footer": [
+    {
+      "title": "About",
+      "links": [
+        {
+          "title": "Company",
+          "url": "company"
+        },
+        {
+          "title": "Team",
+          "url": "team"
+        },
+        {
+          "title": "Careers",
+          "url": "careers"
+        },
+        {
+          "title": "Contact",
+          "url": "contact"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "links": [
+        {
+          "title": "Interior Design",
+          "url": "interior-design"
+        },
+        {
+          "title": "Home Renovation",
+          "url": "home-renovation"
+        },
+        {
+          "title": "Home Staging",
+          "url": "home-staging"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "links": [
+        {
+          "title": "Modern Kitchen",
+          "url": "modern-kitchen"
+        },
+        {
+          "title": "Living Room",
+          "url": "living-room"
+        },
+        {
+          "title": "Bathroom",
+          "url": "bathroom"
+        },
+        {
+          "title": "Balcony",
+          "url": "balcony"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "links": [
+        {
+          "title": "New York, USA",
+          "url": "new-york"
+        },
+        {
+          "title": "Los Angeles, USA",
+          "url": "los-angeles"
+        },
+        {
+          "title": "Chicago, USA",
+          "url": "chicago"
+        },
+        {
+          "title": "San Francisco, USA",
+          "url": "san-francisco"
+        }
+      ]
+    },
+    {
+      "title": "Social",
+      "links": [
+        {
+          "title": "Facebook",
+          "url": "facebook"
+        },
+        {
+          "title": "Twitter",
+          "url": "twitter"
+        },
+        {
+          "title": "Instagram",
+          "url": "instagram"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "linkedin"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "title": "Privacy Policy",
+          "url": "privacy-policy"
+        },
+        {
+          "title": "Terms & Conditions",
+          "url": "terms-conditions"
+        }
+      ]
+    }
+  ]
 }

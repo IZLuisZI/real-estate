@@ -17,12 +17,12 @@ export default function MainSection() {
   return (
     <section
       style={{ height: `calc(100dvh - 5rem)` }}
-      className=" h-[700px]  md:rounded-bl-[300px] flex items-center bg-[url('C:\Users\Luis\Downloads\code\homepage\mansion\real-estate\public\images\main.webp')] relative md:bg-cover "
+      className=" h-[700px]  md:rounded-bl-[300px] flex items-center bg-[url('C:\Users\Luis\Downloads\code\homepage\mansion\real-estate\public\images\main2.webp')] relative md:bg-cover overflow-hidden  "
     >
-      <div className="ml-12 md:ml-[140px] lg:ml-[300px] flex gap-8 flex-col ">
+      <div className="z-20 ml-12 md:ml-[140px] lg:ml-[300px] flex gap-8 flex-col text-white">
         <h1
           data-hero="top"
-          className="text-5xl fadeFromRight text-black md:text-7xl max-w-[13ch] font-bold"
+          className="text-5xl fadeFromRight  md:text-7xl max-w-[13ch] font-bold"
         >
           {JsonFormatter.title}
         </h1>
@@ -31,7 +31,7 @@ export default function MainSection() {
         </p>
         <Anchor url={JsonFormatter.url} anchor={JsonFormatter.anchor} />
       </div>
-      <div className=" absolute bottom-0 left-1/2 -translate-x-1/2">
+      <div className="z-20 absolute bottom-0 left-1/2 -translate-x-1/2">
         <a
           href="#services"
           style={{ transform: "translateX(50%)" }}
@@ -40,6 +40,7 @@ export default function MainSection() {
           <img className="size-8" src={Down} alt="Go down" />
         </a>
       </div>
+      <div className="bg-gray-800 opacity-50 h-full w-full absolute"></div>
     </section>
   );
 }

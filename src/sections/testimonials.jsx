@@ -31,7 +31,7 @@ export default function Testimonials() {
         {windowWidth > 768
           ? [0, 1, 2].map((sectionIndex) => (
               <div
-                key={sectionIndex}
+                key={sectionIndex * 234}
                 className="px-8 my-8 grid grid-cols-3 gap-4 min-w-full"
               >
                 {JsonFormatter.testimonials
