@@ -25,7 +25,6 @@ export default function Services() {
                   src={service.image.src}
                   alt={service.title}
                 />
-                {console.log(service.image.src)}
               </div>
               <h2 className="text-2xl font-bold">{service.title}</h2>
               <p className="text-slate-800">{service.description}</p>

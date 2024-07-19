@@ -16,7 +16,7 @@ export default function MainSection() {
 
   return (
     <section
-      style={{ height: `calc(100vh - 5rem)` }}
+      style={{ height: `calc(100dvh - 5rem)` }}
       className=" h-[700px]  md:rounded-bl-[300px] flex items-center bg-[url('C:\Users\Luis\Downloads\code\homepage\mansion\real-estate\public\images\main.webp')] relative md:bg-cover "
     >
       <div className="ml-12 md:ml-[140px] lg:ml-[300px] flex gap-8 flex-col ">

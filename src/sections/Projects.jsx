@@ -22,13 +22,25 @@ export default function Projects() {
       <div className="grid  md:grid-cols-2 gap-20 mt-14">
         {JsonFormatter.projects.map((project, index) => {
           return (
-            <div data-hero="left" key={index} className=" bg-white  rounded-lg">
+            <div
+              data-hero={
+                index === 0
+                  ? "left"
+                  : index === 1
+                  ? "right"
+                  : index === 2
+                  ? "left"
+                  : "right"
+              }
+              key={index}
+              className=" bg-white  rounded-lg"
+            >
               <div className="flex flex-col  gap-5">
                 <span>
                   <img
                     className={`object-cover aspect-square ${borderStyles[index]}`}
                     src={project.image.src}
-                    alt={project.image.src}
+                    alt={project.image.alt}
                   />
                 </span>
                 <div className="flex justify-between items-center">

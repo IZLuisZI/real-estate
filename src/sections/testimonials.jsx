@@ -1,50 +1,32 @@
 import Homepage from "../data/Homepage.json";
-import { useState, useEffect } from "react";
+import useSlide from "../hooks/useSlide";
+
 const JsonFormatter = {
   testimonials: Homepage.sections.fourth.testimonials,
   title: Homepage.sections.fourth.title,
 };
 
 export default function Testimonials() {
-  const [display, setDisplay] = useState(0);
-
   const windowWidth = window.innerWidth;
-
-  let turnOffInterval = false;
-
   const numberSections =
     windowWidth > 640
       ? JsonFormatter.testimonials.length / 3
       : JsonFormatter.testimonials.length;
-  function autoTranslate() {
-    setDisplay((prev) => (prev + 1) % numberSections);
-  }
 
-  useEffect(() => {
-    if (turnOffInterval) {
-      clearInterval(interval);
-    }
-    const interval = setInterval(autoTranslate, 5000);
+  const { display, handleTouchStart, handleTouchEnd, translate } =
+    useSlide(numberSections);
 
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    console.log(windowWidth);
-  }, [windowWidth]);
-  function translate(index) {
-    setDisplay(index);
-    turnOffInterval = true;
-  }
   return (
     <section className="mx-[20px] md:mx-[50px] lg:mx-[200px]  2xl:mx-[300px] my-[200px] pt-16 pb-12 bg-[#f4f0ec] rounded-[40px] overflow-hidden">
       <h4 className="text-center font-bold text-4xl">{JsonFormatter.title}</h4>
       <div
-        className=" flex"
+        className="flex"
         style={{
           transform: `translateX(-${display * 100}%)`,
           transition: "transform 0.5s ease-in-out",
         }}
+        onTouchStart={(e) => handleTouchStart(e)}
+        onTouchEnd={(e) => handleTouchEnd(e)}
       >
         {windowWidth > 768
           ? [0, 1, 2].map((sectionIndex) => (
@@ -59,12 +41,12 @@ export default function Testimonials() {
                       key={index}
                       className="flex flex-col gap-4 bg-white px-4 py-12 rounded-lg"
                     >
-                      <div className="flex items-center gap-3 ">
+                      <div className="flex items-center gap-3">
                         <span>
                           <img
                             className="size-16 object-cover aspect-square rounded-full"
                             src={testimonial.image.src}
-                            alt={testimonial.image.src}
+                            alt={testimonial.image.alt}
                           />
                         </span>
                         <div>
@@ -86,7 +68,7 @@ export default function Testimonials() {
                   key={index}
                   className="flex flex-col gap-4 bg-white px-4 py-12 rounded-lg"
                 >
-                  <div className="flex items-center gap-3 ">
+                  <div className="flex items-center gap-3">
                     <span>
                       <img
                         className="size-16 object-cover aspect-square rounded-full"
