@@ -1,15 +1,10 @@
 export default function PhoneTestimonials() {
   return (
     // render one testimonial at the time
-    <div
-      className=" flex"
-      style={{
-        transform: `translateX(-${display * 100}%)`,
-        transition: "transform 0.5s ease-in-out",
-      }}
-    >
-      <div className="px-8 my-8 grid grid-cols-1 gap-4 min-w-full">
-        {JsonFormatter.testimonials.slice(0, 3).map((testimonial, index) => (
+    
+      
+      {JsonFormatter.testimonials.map((testimonial, index) => (
+        <div className="px-8 my-8 grid grid-cols-1 gap-4 min-w-full">
           <article
             key={index}
             className="flex flex-col gap-4 bg-white px-4 py-12 rounded-lg"
@@ -30,8 +25,8 @@ export default function PhoneTestimonials() {
             </div>
             <p className="text-slate-700">{testimonial.review}</p>
           </article>
-        ))}
-      </div>
-    </div>
+        </div>
+      ))}
+    
   );
 }
