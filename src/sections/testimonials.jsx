@@ -38,7 +38,7 @@ export default function Testimonials() {
                   .slice(sectionIndex * 3, (sectionIndex + 1) * 3)
                   .map((testimonial, index) => (
                     <article
-                      key={index}
+                      key={index * 233}
                       className="flex flex-col gap-4 bg-white px-4 py-12 rounded-lg"
                     >
                       <div className="flex items-center gap-3">
