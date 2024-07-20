@@ -83,6 +83,7 @@ export default function Testimonials() {
                     </div>
                     <div></div>
                   </div>
+                  <Rating rating={testimonial.rating} />
                   <p className="text-slate-700">{testimonial.review}</p>
                 </article>
               </div>
