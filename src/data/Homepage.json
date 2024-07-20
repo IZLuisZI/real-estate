@@ -94,6 +94,7 @@
           },
           "name": "Jessica White",
           "location": "New York, USA",
+          "rating": 5,
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
 
@@ -104,6 +105,7 @@
           },
           "name": "John Doe",
           "location": "Los Angeles, USA",
+          "rating": 4.5,
           "review": "I really liked the services given by this company. I was not until I talked to them that I realized how much I needed their services. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
 
@@ -114,6 +116,7 @@
           },
           "name": "Jane Smith",
           "location": "Chicago, USA",
+          "rating": 3.9,
           "review": "I am really satisfied with the services offered. They are one of the few companies that offer quality services at an affordable price. I would recommend them to anyone who is looking for a professional interior design service."
         },
         {
@@ -123,6 +126,7 @@
           },
           "name": "Michael Brown",
           "location": "San Francisco, USA",
+          "rating": 4.8,
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
         {
@@ -132,6 +136,7 @@
           },
           "name": "Jessica White",
           "location": "New York, USA",
+          "rating": 5,
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
 
@@ -142,6 +147,7 @@
           },
           "name": "John Doe",
           "location": "Los Angeles, USA",
+          "rating": 4.75,
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
 
@@ -151,6 +157,7 @@
             "alt": "User"
           },
           "name": "Jane Smith",
+          "rating": 4.5,
           "location": "Chicago, USA",
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
@@ -161,6 +168,7 @@
           },
           "name": "Michael Brown",
           "location": "San Francisco, USA",
+          "rating": 5,
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         },
         {
@@ -170,6 +178,7 @@
           },
           "name": "Jane Smith",
           "location": "Chicago, USA",
+          "rating": 4.3,
           "review": "I am very happy with the services provided by Palisade. They helped me make my home look beautiful and unique. I would recommend them to anyone who is looking for a professional interior design service."
         }
       ]

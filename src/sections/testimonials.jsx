@@ -1,5 +1,6 @@
 import Homepage from "../data/Homepage.json";
 import useSlide from "../hooks/useSlide";
+import Rating from "../components/Rating";
 
 const JsonFormatter = {
   testimonials: Homepage.sections.fourth.testimonials,
@@ -55,8 +56,8 @@ export default function Testimonials() {
                           </p>
                           <p>{testimonial.location}</p>
                         </div>
-                        <div></div>
                       </div>
+                      <Rating rating={testimonial.rating} />
                       <p className="text-slate-700">{testimonial.review}</p>
                     </article>
                   ))}

@@ -34,6 +34,7 @@ function useSlide(
 
   function translate(index) {
     setDisplay(index);
+    setAutoTranslateX(false);
   }
 
   function autoTranslate() {
