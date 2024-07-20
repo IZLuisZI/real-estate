@@ -16,10 +16,10 @@ export default function Header() {
           <ul className="flex gap-6 h-full  items-center ">
             {JsonFormatter.Links.map((link, index) => (
               <li
-                className="font-semibold h-full flex items-center"
+                className="header-item relative font-semibold h-full flex items-center"
                 key={index}
               >
-                <a className="items-center" href={link.url}>
+                <a className=" h-full flex items-center" href={link.url}>
                   {link.title}
                 </a>
               </li>
