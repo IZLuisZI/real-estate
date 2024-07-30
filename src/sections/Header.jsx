@@ -9,8 +9,14 @@ const JsonFormatter = {
 export default function Header() {
   const item = useRef();
   const handleMouseEnter = (e) => {
+    item.current.style.opacity = 1;
     item.current.style.width = `${e.target.offsetWidth}px`;
     item.current.style.transform = `translateX(${e.target.offsetLeft}px)`;
+  };
+
+  const handleMouseExit = (e) => {
+    item.current.style.opacity = 0;
+    item.current.style.transform = 0;
   };
   return (
     <header className="shadow-2xl z-0 relative">
@@ -27,6 +33,7 @@ export default function Header() {
                   className=" h-[5rem] px-3 flex items-center relative font-semibold "
                   href={link.url}
                   onMouseEnter={(e) => handleMouseEnter(e)}
+                  onMouseLeave={(e) => handleMouseExit(e)}
                 >
                   {link.title}
                 </a>
